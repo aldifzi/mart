@@ -54,7 +54,7 @@ namespace LKSMart
                 }
                 else
                 {
-                    nameError.Text = "Name cannot be empty!";
+                    nameError.Text = "nama tidak boleh kosong!";
                 }
             }
             else
@@ -76,7 +76,7 @@ namespace LKSMart
                 }
                 else
                 {
-                    pinError.Text = "PIN should be 6 digits numeric !";
+                    pinError.Text = "PIN harus angka !";
                 }
             }
             else

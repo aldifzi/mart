@@ -121,7 +121,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.51499F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 66.48502F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 67F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 137F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 138F));
             this.tableLayoutPanel2.Controls.Add(this.pinError, 3, 3);
             this.tableLayoutPanel2.Controls.Add(this.nameEdit_button, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.pinEdit_button, 2, 3);
@@ -166,10 +166,10 @@
             this.pinError.AutoSize = true;
             this.pinError.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pinError.ForeColor = System.Drawing.Color.Red;
-            this.pinError.Location = new System.Drawing.Point(550, 115);
+            this.pinError.Location = new System.Drawing.Point(549, 115);
             this.pinError.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.pinError.Name = "pinError";
-            this.pinError.Size = new System.Drawing.Size(130, 39);
+            this.pinError.Size = new System.Drawing.Size(131, 39);
             this.pinError.TabIndex = 24;
             // 
             // nameEdit_button
@@ -177,7 +177,7 @@
             this.nameEdit_button.AutoSize = true;
             this.nameEdit_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.nameEdit_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.nameEdit_button.Location = new System.Drawing.Point(483, 4);
+            this.nameEdit_button.Location = new System.Drawing.Point(482, 4);
             this.nameEdit_button.Margin = new System.Windows.Forms.Padding(4);
             this.nameEdit_button.Name = "nameEdit_button";
             this.nameEdit_button.Size = new System.Drawing.Size(53, 31);
@@ -191,7 +191,7 @@
             this.pinEdit_button.AutoSize = true;
             this.pinEdit_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.pinEdit_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.pinEdit_button.Location = new System.Drawing.Point(483, 119);
+            this.pinEdit_button.Location = new System.Drawing.Point(482, 119);
             this.pinEdit_button.Margin = new System.Windows.Forms.Padding(4);
             this.pinEdit_button.Name = "pinEdit_button";
             this.pinEdit_button.Size = new System.Drawing.Size(53, 31);
@@ -205,7 +205,7 @@
             this.birthdayEdit_button.AutoSize = true;
             this.birthdayEdit_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.birthdayEdit_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.birthdayEdit_button.Location = new System.Drawing.Point(483, 158);
+            this.birthdayEdit_button.Location = new System.Drawing.Point(482, 158);
             this.birthdayEdit_button.Margin = new System.Windows.Forms.Padding(4);
             this.birthdayEdit_button.Name = "birthdayEdit_button";
             this.birthdayEdit_button.Size = new System.Drawing.Size(53, 31);
@@ -219,7 +219,7 @@
             this.addressEdit_button.AutoSize = true;
             this.addressEdit_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.addressEdit_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.addressEdit_button.Location = new System.Drawing.Point(483, 197);
+            this.addressEdit_button.Location = new System.Drawing.Point(482, 197);
             this.addressEdit_button.Margin = new System.Windows.Forms.Padding(4);
             this.addressEdit_button.Name = "addressEdit_button";
             this.addressEdit_button.Size = new System.Drawing.Size(53, 35);
@@ -233,7 +233,7 @@
             this.genderEdit_button.AutoSize = true;
             this.genderEdit_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.genderEdit_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.genderEdit_button.Location = new System.Drawing.Point(483, 300);
+            this.genderEdit_button.Location = new System.Drawing.Point(482, 300);
             this.genderEdit_button.Margin = new System.Windows.Forms.Padding(4);
             this.genderEdit_button.Name = "genderEdit_button";
             this.genderEdit_button.Size = new System.Drawing.Size(53, 33);
@@ -347,7 +347,7 @@
             this.gender_comboBox.Location = new System.Drawing.Point(164, 300);
             this.gender_comboBox.Margin = new System.Windows.Forms.Padding(4);
             this.gender_comboBox.Name = "gender_comboBox";
-            this.gender_comboBox.Size = new System.Drawing.Size(311, 33);
+            this.gender_comboBox.Size = new System.Drawing.Size(310, 33);
             this.gender_comboBox.TabIndex = 13;
             // 
             // address_textBox
@@ -359,7 +359,7 @@
             this.address_textBox.Margin = new System.Windows.Forms.Padding(4);
             this.address_textBox.Multiline = true;
             this.address_textBox.Name = "address_textBox";
-            this.address_textBox.Size = new System.Drawing.Size(311, 95);
+            this.address_textBox.Size = new System.Drawing.Size(310, 95);
             this.address_textBox.TabIndex = 14;
             // 
             // pin_textBox
@@ -371,7 +371,7 @@
             this.pin_textBox.Margin = new System.Windows.Forms.Padding(4);
             this.pin_textBox.Name = "pin_textBox";
             this.pin_textBox.PasswordChar = '*';
-            this.pin_textBox.Size = new System.Drawing.Size(311, 30);
+            this.pin_textBox.Size = new System.Drawing.Size(310, 30);
             this.pin_textBox.TabIndex = 16;
             this.pin_textBox.UseSystemPasswordChar = true;
             // 
@@ -383,7 +383,7 @@
             this.phoneNumber_textBox.Margin = new System.Windows.Forms.Padding(4);
             this.phoneNumber_textBox.Name = "phoneNumber_textBox";
             this.phoneNumber_textBox.ReadOnly = true;
-            this.phoneNumber_textBox.Size = new System.Drawing.Size(311, 30);
+            this.phoneNumber_textBox.Size = new System.Drawing.Size(310, 30);
             this.phoneNumber_textBox.TabIndex = 17;
             // 
             // email_textBox
@@ -394,7 +394,7 @@
             this.email_textBox.Margin = new System.Windows.Forms.Padding(4);
             this.email_textBox.Name = "email_textBox";
             this.email_textBox.ReadOnly = true;
-            this.email_textBox.Size = new System.Drawing.Size(311, 30);
+            this.email_textBox.Size = new System.Drawing.Size(310, 30);
             this.email_textBox.TabIndex = 18;
             // 
             // name_textBox
@@ -405,7 +405,7 @@
             this.name_textBox.Location = new System.Drawing.Point(164, 4);
             this.name_textBox.Margin = new System.Windows.Forms.Padding(4);
             this.name_textBox.Name = "name_textBox";
-            this.name_textBox.Size = new System.Drawing.Size(311, 30);
+            this.name_textBox.Size = new System.Drawing.Size(310, 30);
             this.name_textBox.TabIndex = 19;
             // 
             // birthday_dateTimePicker
@@ -416,7 +416,7 @@
             this.birthday_dateTimePicker.Location = new System.Drawing.Point(164, 158);
             this.birthday_dateTimePicker.Margin = new System.Windows.Forms.Padding(4);
             this.birthday_dateTimePicker.Name = "birthday_dateTimePicker";
-            this.birthday_dateTimePicker.Size = new System.Drawing.Size(311, 30);
+            this.birthday_dateTimePicker.Size = new System.Drawing.Size(310, 30);
             this.birthday_dateTimePicker.TabIndex = 20;
             // 
             // tableLayoutPanel3
@@ -432,7 +432,7 @@
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(311, 136);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(310, 136);
             this.tableLayoutPanel3.TabIndex = 21;
             // 
             // upload_button
@@ -443,7 +443,7 @@
             this.upload_button.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.upload_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.upload_button.ForeColor = System.Drawing.Color.White;
-            this.upload_button.Location = new System.Drawing.Point(137, 4);
+            this.upload_button.Location = new System.Drawing.Point(136, 4);
             this.upload_button.Margin = new System.Windows.Forms.Padding(4);
             this.upload_button.Name = "upload_button";
             this.upload_button.Size = new System.Drawing.Size(94, 34);
@@ -459,7 +459,7 @@
             this.profilePicture.Location = new System.Drawing.Point(4, 4);
             this.profilePicture.Margin = new System.Windows.Forms.Padding(4);
             this.profilePicture.Name = "profilePicture";
-            this.profilePicture.Size = new System.Drawing.Size(125, 128);
+            this.profilePicture.Size = new System.Drawing.Size(124, 128);
             this.profilePicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.profilePicture.TabIndex = 6;
             this.profilePicture.TabStop = false;
@@ -469,10 +469,10 @@
             this.nameError.AutoSize = true;
             this.nameError.Dock = System.Windows.Forms.DockStyle.Fill;
             this.nameError.ForeColor = System.Drawing.Color.Red;
-            this.nameError.Location = new System.Drawing.Point(550, 0);
+            this.nameError.Location = new System.Drawing.Point(549, 0);
             this.nameError.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nameError.Name = "nameError";
-            this.nameError.Size = new System.Drawing.Size(130, 39);
+            this.nameError.Size = new System.Drawing.Size(131, 39);
             this.nameError.TabIndex = 22;
             // 
             // Profile
