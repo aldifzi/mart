@@ -1,0 +1,31 @@
+name: Commit
+
+on:
+  push:
+    branches:
+      - master  # ganti dengan nama branch yang diinginkan
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Git
+      run: |
+        git config --global user.name 'Aldi Fauzi'
+        git config --global user.email 'faaldy16@gmail.com'
+      
+    - name: Commit changes
+      run: |
+        echo "Your commit message" >> LKSMart/Program.cs
+          git add LKSMart/Program.cs
+          git commit -m "Auto commit changes to Program.cs" || true
+          git push
+      
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
